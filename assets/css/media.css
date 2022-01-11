@@ -693,9 +693,14 @@
     padding: 0 10px;
   }
   .service-wrapper .service-block .service-item {
+    -webkit-transition-delay: unset !important;
+            transition-delay: unset !important;
     margin-right: 0;
     width: 47%;
     height: 125px;
+  }
+  .service-wrapper .service-block .service-item__text {
+    font-size: 11px;
   }
   .service-bg {
     left: -272px;

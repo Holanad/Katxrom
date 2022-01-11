@@ -826,9 +826,13 @@
                 justify-content: space-between;
                 padding: 0 10px;
                 .service-item{
+                    transition-delay: unset !important;
                     margin-right: 0;
                     width: 47%;
                     height: 125px;
+                    &__text{
+                        font-size: 11px;
+                    }
                 }
             }
         }
