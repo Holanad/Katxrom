@@ -36,6 +36,9 @@
   .about-bg {
     right: -452px;
   }
+  .service-wrapper .service__descr {
+    font-family: 'Roboto Regular';
+  }
   .service-wrapper .service-block .service-item {
     margin-right: 23px;
     width: 284px;
@@ -92,6 +95,9 @@
   }
   .section {
     padding: 75px 0;
+  }
+  .padding-header {
+    padding-top: 205px;
   }
   .title {
     font-size: 25px;
@@ -188,6 +194,9 @@
   .service-wrapper .service__title {
     margin-bottom: 30px;
   }
+  .service-wrapper .service__descr {
+    margin-bottom: 60px;
+  }
   .service-wrapper .service-block {
     padding: 0 10px;
   }
@@ -282,6 +291,11 @@
   .footer-wrapper .footer-copywriter {
     margin-right: auto;
   }
+  /* SERVICE */
+  .service-page .service-bg {
+    width: auto;
+    height: 100%;
+  }
   /* LOGO */
   .application-wrapper .application-block {
     padding: 36px 10px;
@@ -315,6 +329,9 @@
   .title {
     font-size: 20px;
     line-height: 23px;
+  }
+  .padding-header {
+    padding-top: 100px;
   }
   .header-wrapper {
     padding: 24px 0;
@@ -388,6 +405,9 @@
   }
   .service-wrapper .service__title {
     margin-bottom: 52px;
+  }
+  .service-wrapper .service__descr {
+    display: none;
   }
   .service-wrapper .service-block {
     padding: 0 20px;

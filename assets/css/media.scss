@@ -50,6 +50,9 @@
     }
     .service{
         &-wrapper {
+            .service__descr{
+                font-family: 'Roboto Regular';
+            }    
             .service-block {
                 .service-item {
                     margin-right: 23px;
@@ -130,6 +133,9 @@
     }
     .section{
         padding: 75px 0;
+    }
+    .padding-header {
+        padding-top: 205px;
     }
     .title{
         font-size: 25px;
@@ -234,6 +240,9 @@
         &-wrapper {
             .service__title{
                 margin-bottom: 30px;
+            }
+            .service__descr{
+                margin-bottom: 60px;
             }
             .service-block{
                 padding: 0 10px;
@@ -341,6 +350,13 @@
             }
         }
     }
+    /* SERVICE */
+    .service-page{
+        .service-bg{
+            width: auto;
+            height: 100%;
+        }
+    }
     /* LOGO */
     .application{
         &-wrapper {
@@ -374,6 +390,9 @@
     .title{
         font-size: 20px;
         line-height: 23px;
+    }
+    .padding-header{
+        padding-top: 100px;
     }
     .header{
         &-wrapper {
@@ -461,6 +480,9 @@
         &-wrapper{
             .service__title{
                 margin-bottom: 52px;
+            }
+            .service__descr{
+                display: none;
             }
             .service-block{
                 padding: 0 20px;
