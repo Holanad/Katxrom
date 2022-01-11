@@ -765,8 +765,8 @@
     margin: 60px 0 70px 0;
   }
   .footer-wrapper .footer-block .footer-title {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: normal;
   }
   .footer-wrapper .footer-block .footer-title::after {
     width: 113px;
@@ -775,8 +775,8 @@
     width: 113px;
   }
   .footer-wrapper .footer-block .footer-navigation .footer-nav .foote-list .footer-item__link {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: normal;
   }
   .footer-wrapper .footer-block .footer-contact {
     width: 50%;
@@ -785,11 +785,11 @@
     margin-bottom: 24px;
   }
   .footer-wrapper .footer-block .footer-contact-block .footer-contact-elem__info .footer-contact-elem__number {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
   .footer-wrapper .footer-block .footer-contact-block .footer-contact-elem__info .footer-contact-elem__country {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12px;
   }
   .footer-wrapper .footer-block .footer-contact-block .footer-contact-elem__messanger {
