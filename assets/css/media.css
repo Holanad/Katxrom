@@ -779,6 +779,9 @@
     line-height: 12px;
   }
   /* LOGO */
+  .application-wrapper {
+    padding: 70px 0 90px 0;
+  }
   .application-wrapper .application-block .application__text {
     font-size: 10px;
   }
