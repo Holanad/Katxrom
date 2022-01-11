@@ -787,6 +787,7 @@
         &-wrapper{
             .about-experience{
                 width: unset;
+                justify-content: space-around;
                 &-item{
                     width: unset;
                     &:first-child{
@@ -796,14 +797,15 @@
                         padding-right: 0;
                     }
                     &::after{
-                        right: -9vw;
+                        right: -4vw;
+                        height: 44px;
                     }
                     &__num{
-                        font-size: 20px;
+                        font-size: 22px;
                         line-height: 27px;
                     }
                     &__text{
-                        font-size: 8px;
+                        font-size: 10px;
                         line-height: 9px;
                     }
                 }

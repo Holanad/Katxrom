@@ -652,6 +652,8 @@
   }
   .about-wrapper .about-experience {
     width: unset;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .about-wrapper .about-experience-item {
     width: unset;
@@ -663,14 +665,15 @@
     padding-right: 0;
   }
   .about-wrapper .about-experience-item::after {
-    right: -9vw;
+    right: -4vw;
+    height: 44px;
   }
   .about-wrapper .about-experience-item__num {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 27px;
   }
   .about-wrapper .about-experience-item__text {
-    font-size: 8px;
+    font-size: 10px;
     line-height: 9px;
   }
   .service-wrapper .service__title {
