@@ -99,6 +99,11 @@
     .footer{
         &-wrapper {
             .footer-block {
+                .footer-title{
+                    &::after{
+                        width: 197px;
+                    }
+                }
                 .footer-contact-block {
                     .footer-contact-elem {
                         flex-direction: column;
@@ -303,7 +308,9 @@
             .footer-block {
                 flex-wrap: wrap;
                 .footer-title{
-                    
+                    &::after{
+                        width: 243px;
+                    }
                 }
                 .footer-contact{
                     order: 1;
@@ -544,6 +551,9 @@
                     font-size: 12px;
                     line-height: 15px;
                     margin-bottom: 18px;
+                    &::after{
+                        width: 149px;
+                    }
                 }
                 .footer-navigation {
                     .footer-nav {
@@ -889,10 +899,19 @@
     }
     .footer{
         &-wrapper{
+            padding: 50px 0 30px 0;
+            .footer-logo{
+                width: 186px;
+                height: 43px;
+            }
             .footer-block {
+                margin: 60px 0 70px 0;
                 .footer-title{
                     font-size: 10px;
                     line-height: 12px;
+                    &::after{
+                        width: 113px;
+                    }
                 }
                 .footer-navigation{
                     width: 113px;
@@ -934,6 +953,11 @@
                     }
                 }
             }
+        }
+        &-bg{
+            width: auto;
+            height: 100%;
+            left: 0;
         }
     }
     /* LOGO */

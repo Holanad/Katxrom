@@ -1533,13 +1533,23 @@ p, span, li {
 }
 
 .footer-wrapper .footer-block .footer-title {
-  border-bottom: 1px solid #FFFFFF;
   text-transform: uppercase;
   font-family: 'Montserrat Bold';
   font-size: 15px;
   line-height: 18px;
   padding-bottom: 6px;
   margin-bottom: 32px;
+  position: relative;
+}
+
+.footer-wrapper .footer-block .footer-title::after {
+  content: '';
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-wrapper .footer-block .footer-navigation, .footer-wrapper .footer-block .footer-contact, .footer-wrapper .footer-block .footer-aplication {
