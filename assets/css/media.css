@@ -713,7 +713,7 @@
     line-height: 9px;
   }
   .service-wrapper {
-    padding-bottom: 65px;
+    padding: 65px 0;
   }
   .service-wrapper .service__title {
     margin-bottom: 36px;

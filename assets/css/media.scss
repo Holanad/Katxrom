@@ -853,7 +853,8 @@
     }
     .service{
         &-wrapper{
-            padding-bottom: 65px;
+            
+            padding: 65px 0;
             .service__title{
                 margin-bottom: 36px;
             }
