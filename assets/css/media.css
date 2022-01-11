@@ -788,5 +788,10 @@
   .application-wrapper .application-block .application-form-block .application-form-col {
     width: 100%;
   }
+  .application-wrapper .application-block .application-form__button {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 9px 26px;
+  }
 }
 /*# sourceMappingURL=media.css.map */
