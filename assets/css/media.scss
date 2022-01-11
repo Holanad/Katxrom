@@ -907,7 +907,7 @@
             .footer-block {
                 margin: 60px 0 70px 0;
                 .footer-title{
-                    font-size: 10px;
+                    font-size: 12px;
                     line-height: 12px;
                     &::after{
                         width: 113px;
@@ -919,7 +919,7 @@
                         .foote-list {
                             .footer-item {
                                 &__link{
-                                    font-size: 10px;
+                                    font-size: 12px;
                                     line-height: 12px;
                                 }
                             }
@@ -933,8 +933,8 @@
                             margin-bottom: 24px;
                             &__info {
                                 .footer-contact-elem__number {
-                                    font-size: 12px;
-                                    line-height: 15px;
+                                    font-size: 14px;
+                                    line-height: 20px;
                                 }
                                 .footer-contact-elem__country{
                                     font-size: 10px;
@@ -952,6 +952,9 @@
                         line-height: 12px;
                     }
                 }
+            }
+            .footer-copywriter{
+                margin-top: 20px;
             }
         }
         &-bg{
