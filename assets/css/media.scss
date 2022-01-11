@@ -844,7 +844,7 @@
         &-wrapper {
             padding: 40px 0 70px 0;
             .project-slider{
-                margin: 0 15%;
+                margin: 0 7%;
                 &-wrapper {
                     .slick-list {
                         .slick-slide{
@@ -865,15 +865,17 @@
                     }
                     .project-slider-item{
                         &__link{
-                            height: 170px;
+                            height: 195px;
+                            .project-item-slider__image{
+                                border-radius: 5px;
+                            }
                         }
                     }
                 }
                 &-panel{  
-                    width: calc(100% + 100px);
-                    left: -50px;
+                    width: calc(100% + 50px);
+                    left: -25px;
                     .project-slider-btn{
-                        
                         svg{
                             width: 7px;
                         }
