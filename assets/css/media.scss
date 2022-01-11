@@ -831,7 +831,7 @@
                     width: 47%;
                     height: 125px;
                     &__text{
-                        font-size: 11px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -842,24 +842,19 @@
     }
     .project{
         &-wrapper {
-            
+            padding: 40px 0 70px 0;
             .project-slider{
                 margin: 0 15%;
                 &-wrapper {
-                    
                     .slick-list {
                         .slick-slide{
                             transform: none;
                             width: unset;
-                        }
-    
-    
+                        }    
                         .slick-active + .slick-active{
                             transform: none;
                             width: unset;
                         }
-    
-    
                         .slick-active + .slick-active + .slick-active{
                             transform: none;
                             width: unset;
@@ -867,6 +862,11 @@
                     }
                     .plug{
                         display: none;
+                    }
+                    .project-slider-item{
+                        &__link{
+                            height: 170px;
+                        }
                     }
                 }
                 &-panel{  

@@ -700,10 +700,13 @@
     height: 125px;
   }
   .service-wrapper .service-block .service-item__text {
-    font-size: 11px;
+    font-size: 12px;
   }
   .service-bg {
     left: -272px;
+  }
+  .project-wrapper {
+    padding: 40px 0 70px 0;
   }
   .project-wrapper .project-slider {
     margin: 0 15%;
@@ -725,6 +728,9 @@
   }
   .project-wrapper .project-slider-wrapper .plug {
     display: none;
+  }
+  .project-wrapper .project-slider-wrapper .project-slider-item__link {
+    height: 170px;
   }
   .project-wrapper .project-slider-panel {
     width: calc(100% + 100px);
