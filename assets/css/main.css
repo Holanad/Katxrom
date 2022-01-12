@@ -1060,6 +1060,7 @@ p, span, li {
   left: -30px;
   height: 100%;
   z-index: -1;
+  opacity: 0.1;
 }
 
 .header-mobile.active {
@@ -1948,6 +1949,10 @@ p, span, li {
   max-width: 943px;
 }
 
+.price-logo .price-wrapper .price-list .price-item:last-child {
+  margin-bottom: 0;
+}
+
 .price-logo .price-wrapper .price-list .price-item__icon {
   width: 90px;
   height: 90px;
@@ -2008,6 +2013,10 @@ p, span, li {
   text-align: center;
   color: #000000;
   margin-bottom: 60px;
+}
+
+.description-wrapper .description__descr .show-elem {
+  display: none;
 }
 
 .description-wrapper .description__descr span {
@@ -2133,7 +2142,7 @@ p, span, li {
 }
 
 .price-wrapper .price-list .price-item:last-child {
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .price-wrapper .price-list .price-item__title {
