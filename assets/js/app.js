@@ -17,7 +17,11 @@ var myLazyLoad = new LazyLoad();
 
   
 $(document).ready(function() {
-
+ /* (function adaptiveBackground () {
+    if ($(window).width() < 480){
+      
+    }
+  }())*/
   //Бургер меню
   (function headerBurger (){
     $('.header-burger').click(function () {

@@ -1,4 +1,16 @@
-// height
+// Главная +
+// Услуги +
+// О нас 
+// Портфолио
+// Контакты
+// Лого +
+// Полиграфический дизайн +
+// Брендбук +
+// Презентации +
+// Соц сети +
+// Веб сайты +
+
+
 @media screen and (max-height: 600px){
     .intro{
         height: 100%;
@@ -145,6 +157,11 @@
                 }
             }
         }
+        &-bg{
+            top: 25px;
+            width: 100%;
+            left: 0;
+        }
     }
     .price{
         &-wrapper {
@@ -192,6 +209,9 @@
             .price-list {
                 margin-left: 50px;
                 .price-item{
+                    &-content{
+                        max-width: 680px;
+                    }
                     &__icon{
                         width: 78px;
                         height: 78px;
@@ -208,6 +228,20 @@
             }
         }
     }
+    /* PRESENTATION*/
+    .presentation{
+        .intro-wrapper{
+            .intro__title{
+                font-size: 23px;
+                line-height: 27px;
+            }
+            .intro__descr{
+                font-size: 19px;
+                line-height: 22px;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -458,6 +492,23 @@
             }
         }
     }
+    .price-logo{
+        .price-wrapper {
+            .price-list {
+                margin-left: 0;
+                .price-item{
+                    &-content{
+                        max-width: 532px;
+                    }
+                    &__icon{
+                        width: 74px;
+                        height: 74px;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
     /* POLYGRAPH */
     .description{
         &-wrapper{
@@ -488,6 +539,11 @@
                 }
             }
         }
+        &-bg{
+            top: 54px;
+            width: calc(100% + 200px);
+            left: -100px;
+        }
     }
     .price{
         &-wrapper {
@@ -508,6 +564,72 @@
                         font-size: 15px;
                         line-height: 18px;
                         margin-top: 106px;
+                    }
+                }
+            }
+        }
+    }
+    /* PRESENTATION*/
+    .presentation{
+        .intro-wrapper{
+            .intro__title{
+                font-size: 25px;
+                line-height: 29px;
+            }
+            .intro__descr{
+                font-size: 18px;
+                line-height: 21px;
+                margin: 40px 0;
+            }
+        }
+        .description-wrapper{
+            .description__descr{
+                br{
+                    &:nth-child(2){
+                        display: none;
+                    }
+                }
+            }
+            .description-block {
+                .description-list {
+                    .description-item {
+                        font-size: 15px;
+                        line-height: 18px;
+                        span{
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* SOCIAL */
+    .social{
+        .description{
+            &-wrapper {
+                .description-block {
+                    .description-list {
+                        .description-item {
+                            margin-left: 15px;
+                            font-size: 18px;
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* WEBSITE*/
+    .site{
+        &-wrapper {
+            .site-main {
+                padding: 20px 8px;
+            }
+            .site-block {
+                .site-list {
+                    .site-item{
+                        width: 191px;
                     }
                 }
             }
@@ -589,6 +711,13 @@
         &-bg{
             width: 341px;
             left: -120px;
+        }
+    }
+    .intro-page{
+        .intro-wrapper{
+            .intro-block{
+                transform: translateY(-25px);
+            }
         }
     }
     .about{
@@ -810,6 +939,39 @@
             }
         }
     }
+    .price-logo{
+        .price-wrapper {
+            padding: 25px 0;
+            .price-list {
+                .price-item {
+                    align-items: flex-start;
+                    &-content{
+                        max-width: 412px;
+                    }
+                    &__icon{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 10px;
+                    }
+                    &__title{
+                        margin-bottom: 14px;
+                    }
+                    &__descr{
+                        font-size: 12px;
+                        line-height: 14px;
+                        span{
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                        #s{
+                            font-size: 12px;
+                            line-height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     /* POLYGRAPH */
     .polygraph{
         .description-wrapper {
@@ -838,14 +1000,26 @@
                             }
                         }
                     }
+                    &:nth-child(1){
+                        .description-advantages-item__img{
+                            width: 37px;
+                            height: 40px;
+                        }
+                    } 
+                    &:nth-child(2){
+                        .description-advantages-item__img{
+                            width: 42px;
+                            height: 42px;
+                        }
+                    }
                     &:nth-child(3){
                         .description-advantages-item__num{
                             margin-left: 25px;
                         }
-                    }
-                    &__img{
-                        width: 37px;
-                        height: 40px;
+                        .description-advantages-item__img{
+                            width: 44px;
+                            height: 46px;
+                        }
                     }
                     &__num{
                         font-size: 40px;
@@ -858,6 +1032,11 @@
                     }
                 }
             }
+        }
+        &-bg{
+            top: 0;
+            width: 100%;
+            left: 0;
         }
     }
     .price{
@@ -905,6 +1084,157 @@
                         line-height: 14px;
                     }
                 }
+            }
+        }
+    }
+    /* BRANDBOOK */
+    .brandbook{
+        .hide-elem{
+            display: none;
+        }
+        .price-wrapper {
+            .price-list {
+                .price-item {
+                    &:nth-child(odd){
+                        text-align: right;
+                    }
+                    &:last-child{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .price.brandbook{
+        background-position: left !important;
+    }
+    /* PRESENTATION*/
+    .presentation{
+        .intro-wrapper{
+            .intro__title{
+                font-size: 18px;
+                line-height: 21px;
+            }
+            .intro__descr{
+                font-size: 12px;
+                line-height: 14px;
+                margin: 20px 0;
+            }
+        }
+        .description-wrapper{
+            .description-block {
+                .description-list {
+                    .description-item {
+                        margin-bottom: 20px;
+                        font-size: 12px;
+                        line-height: 14px;
+                        span{
+                            font-size: 12px;
+                            line-height: 14px;
+                        }
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .price-wrapper{
+            .price-list {
+                .price-item{
+                    &__descr{
+                        &:nth-child(odd){
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* SOCIAL */
+    .social{
+        .description{
+            &-wrapper {
+                .description-block {
+                    .description-list {
+                        .description-item {
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* WEBSITE */
+    .site{
+        &-wrapper {
+            padding: 33px 20px;
+            .site-main{
+                display: none;
+            }
+            .site-block{
+                background: url('../img/page/website/dscr-bg.png') no-repeat left/cover;
+                padding: 23px 3px;
+                &__title{
+                    font-size: 12px;
+                    line-height: 173.69%;
+                    margin-bottom: 23px;
+                }
+                .site-list {
+                    .site-item{
+                        width: 125px;
+                        &-img {
+                            width: 58px;
+                            height: 48px;
+                        }
+                        &__title{
+                            font-size: 12px;
+                            line-height: 14px;
+                        }
+                        &__descr{
+                            font-size: 12px;
+                            line-height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        &-bg{
+            display: none;
+        }
+    }
+    /* about */
+    .about-page{
+        .about-wrapper{
+            .about__title{
+                display: block;
+                &::after{
+                    width: 269px;
+                }
+            }
+            .about__descr{
+                padding: 30px 0;
+            }
+            .about-block{
+                display: flex;
+                margin-bottom: 55px;
+                &::before{
+                    width: 100%;
+                    transform: translate(0, -50%);
+                    height: calc(100% - 30px);
+                }
+                .about-image{
+                    margin-left: 17px;
+                    width: 163px;
+                    height: 216px;
+                }
+                .about__descr{
+                    font-size: 11px;
+                    line-height: 13px;
+                    max-width: 262px;
+                }
+
             }
         }
     }
@@ -1080,7 +1410,7 @@
                     }
                     &__text{
                         font-size: 10px;
-                        line-height: 9px;
+                        line-height: 12px;
                     }
                 }
             }
@@ -1226,6 +1556,17 @@
     }
     /* POLYGRAPH */
     .polygraph{
+        .intro-wrapper{
+            .intro-block{
+                transform: translateY(-25px);
+                .intro__descr{
+                    max-width: 290px;
+                    br{
+                        display: none;
+                    }
+                }
+            }
+        }
         .description-wrapper{
             .description__descr{
                 margin-bottom: 30px;
@@ -1245,18 +1586,37 @@
             }
             .description-advantages{
                 &-item{
+                    &:nth-child(1){
+                        .description-advantages-item__img{
+                            width: 31px;
+                            height: 34px;
+                        }
+                    } 
+                    &:nth-child(2){
+                        .description-advantages-item__img{
+                            width: 36px;
+                            height: 36px;
+                        }
+                    }
+                    &:nth-child(3){
+                        .description-advantages-item__img{
+                            width: 33px;
+                            height: 34px;
+                        }
+                    }
                     &__img{
                         width: 31px;
                         height: 34px;
                     }
                     &__num{
-                        font-size: 30px;
+                        font-size: 35px;
                         line-height: 35px;
                         letter-spacing: 0.05em;
                     }
                     &__text{
-                        font-size: 8px;
-                        line-height: 9px;
+                        margin-top: 10px;
+                        font-size: 11px;
+                        line-height: 14px;
                     }
                 }
             }
@@ -1288,6 +1648,15 @@
             }
         }
     }
+    .stage{
+        &-wrapper{
+            padding: 60px 0;
+        }
+        &-bg{
+            width: auto;
+            right: 0;
+        }
+    }
     .stage_black {
         .stage-wrapper {
             .stage-block {
@@ -1295,23 +1664,28 @@
                 .stage-item{
                     transition-delay: unset !important; 
                     width: 155px;
-                    &__descr{
-                        display: none;
-                    }
-                    &__num{
-                        font-size: 70px;
-                        line-height: 95px;
-                    }
+                    margin-right: 0;
                     &__title{
-                        font-size: 13px;
-                        line-height: 15px;
+                        font-size: 15px;
+                        line-height: 16px;
                         margin-top: 55px;
+                    }
+                    &__descr{
+                        font-size: 13px;
+                        line-height: 18px;
                     }
                 }
             }
         }
     }
     /* LOGO */
+    .intro-logo{
+        .intro-wrapper{
+            .intro-block{
+                transform: translateY(-25px);
+            }
+        }
+    }
     .application{
         &-wrapper {
             padding: 70px 0 90px 0;
@@ -1334,4 +1708,170 @@
             }
         }
     }
-}
+    .price-logo{
+        .price-wrapper {
+            padding: 50px 0;
+            .price-list{
+                .price-item{
+                    &-content{
+                        margin-top: 8px;
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                    &__icon{
+                        position: absolute;
+                    }
+                    &__title{
+                        padding-left: 45px;
+                    }
+                    &__descr{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    /* BRANDBOOK */
+    .brandbook{
+        .intro-wrapper{
+            .intro-block{
+                transform: translateY(-60px);
+            }
+        }
+        .price-wrapper {
+            .price__title{
+                margin-bottom: 45px;
+            }
+            .price-list {
+                .price-item{
+                    &:nth-child(odd){
+                        text-align: left;
+                    }
+                    &:last-child{
+                        text-align: center;
+                        span{
+                            width: 100%;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brandbook.price{
+        background-position: center;
+    }
+    /* PRESENTATION */
+    .presentation{
+        .intro-wrapper{
+            .intro__title{
+                font-size: 15px;
+                line-height: 18px;
+            }
+            .intro__descr{
+                font-size: 15px;
+                line-height: 18px;
+                margin: 30px 0;
+            }
+            .intro-block{
+                transform: translateY(-40px);
+            }
+        }
+        .description-wrapper{
+            .description__descr{
+                margin-bottom: 32px;
+                .hide-elem{
+                    display: none;
+                }
+            }
+            .description-block {
+                .description-list {
+                    .description-item {
+                        margin-bottom: 20px;
+                        font-size: 12px;
+                        line-height: 14px;
+                        span{
+                            font-size: 12px;
+                            line-height: 14px;
+                        }
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    /* SOCIAL */
+    .social{
+        .description{
+            &-wrapper {
+                .description__descr{
+                    font-size: 15px;
+                    line-height: 21px;
+                }
+                .description-block {
+                    justify-content: flex-start;
+                    .description-list {
+                        .description-item {
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Website */
+    .website{
+        .intro-wrapper{
+            .intro-block{
+                transform: translateY(-40px);
+            }
+        }
+    }
+    /* WEBSITE */
+    .site{
+        &-wrapper{
+            .hide-elem{
+                display: none;
+            }
+            .site-block{
+                padding: 0;
+                background: none;
+                .site-list{
+                    padding: 10px 6px;
+                    background: url('../img/page/website/dscr-bg.png') no-repeat left/cover;
+                }
+                &__title{
+                    font-size: 15px;
+                    line-height: 173.69%;
+                }
+            }
+        }
+    }
+    .about-page{
+        .about-wrapper{
+            .about__title{
+                &::after{
+                    width: 140px;
+                }
+            }
+            .about-block{
+                &::before{
+                    height: calc(100% - 15px);
+                }
+                .about-image{
+                    margin-left: 7px;
+                    width: 35%;
+                    height: 200px;
+                }
+                .about__descr{
+                    max-width: 60%;
+                    padding: 15px 0;
+                }
+            }
+        }
+    }
+}  
