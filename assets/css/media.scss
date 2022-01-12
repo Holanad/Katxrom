@@ -241,7 +241,18 @@
             }
         }
     }
-
+    .about-page{
+        .advantages-wrapper{
+            .advantages-block {
+                .advantages-item {
+                    margin-right: 10px;
+                    &:nth-child(3n + 3){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -630,6 +641,23 @@
                 .site-list {
                     .site-item{
                         width: 191px;
+                    }
+                }
+            }
+        }
+    }
+    .about-page{
+        .advantages-wrapper{
+            .advantages-block {
+                .advantages-item {
+                    width: 193px;
+                    margin-right: 30px;
+                    &:nth-child(3n + 3){
+                        margin-right: 0;
+                    }
+                    &__text{
+                        font-size: 15px;
+                        line-height: 18px;
                     }
                 }
             }
@@ -1234,7 +1262,25 @@
                     line-height: 13px;
                     max-width: 262px;
                 }
-
+            }
+        }
+        .advantages-wrapper{
+            .advantages-block {
+                .advantages-item {
+                    width: 150px;
+                    margin-right: 5px;
+                    &:nth-child(3n + 3){
+                        margin-right: 0;
+                    }
+                    &__img{
+                        width: 63px;
+                        height: 63px;
+                    }
+                    &__text{
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                }
             }
         }
     }
@@ -1870,6 +1916,24 @@
                 .about__descr{
                     max-width: 60%;
                     padding: 15px 0;
+                }
+            }
+        }
+        .advantages-wrapper{
+            .advantages-block {
+                margin: 0 32px;
+                justify-content: space-between;
+                .advantages-item {
+                    transition-delay:unset !important;
+                    width: 48%;
+                    margin-right: 0;
+                    &:nth-child(3n + 3){
+                        margin-right: 0;
+                    }
+                    &__img{
+                        width: 43px;
+                        height: 43px;
+                    }
                 }
             }
         }

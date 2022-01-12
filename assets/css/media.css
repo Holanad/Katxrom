@@ -162,6 +162,12 @@
     font-size: 19px;
     line-height: 22px;
   }
+  .about-page .advantages-wrapper .advantages-block .advantages-item {
+    margin-right: 10px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -480,6 +486,17 @@
   }
   .site-wrapper .site-block .site-list .site-item {
     width: 191px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item {
+    width: 193px;
+    margin-right: 30px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item__text {
+    font-size: 15px;
+    line-height: 18px;
   }
 }
 
@@ -960,6 +977,21 @@
     font-size: 11px;
     line-height: 13px;
     max-width: 262px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item {
+    width: 150px;
+    margin-right: 5px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item__img {
+    width: 63px;
+    height: 63px;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item__text {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
@@ -1466,6 +1498,25 @@
   .about-page .about-wrapper .about-block .about__descr {
     max-width: 60%;
     padding: 15px 0;
+  }
+  .about-page .advantages-wrapper .advantages-block {
+    margin: 0 32px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item {
+    -webkit-transition-delay: unset !important;
+            transition-delay: unset !important;
+    width: 48%;
+    margin-right: 0;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+  .about-page .advantages-wrapper .advantages-block .advantages-item__img {
+    width: 43px;
+    height: 43px;
   }
 }
 /*# sourceMappingURL=media.css.map */
